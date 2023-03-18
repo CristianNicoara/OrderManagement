@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="38.0" y="-35.5">com</node>
+    <node x="4228.5" y="-35.5">images</node>
+    <node x="4043.0" y="-35.5">netscape</node>
+    <node x="3881.0" y="-35.5">org</node>
+    <node x="2667.5" y="-35.5">businessLayer</node>
+    <node x="3688.5" y="-35.5">google</node>
+    <node x="3397.5" y="-35.5">toolbarButtonGraphics</node>
+    <node x="3241.5" y="-35.5">sun</node>
+    <node x="3031.0" y="-35.5">presentation</node>
+    <node x="2882.5" y="-35.5">jdk</node>
+    <node x="2459.0" y="-35.5">META-INF</node>
+    <node x="2219.0" y="-35.5">groovyjarjarasm</node>
+    <node x="2620.3689826454897" y="102.00597902741151">MainClass</node>
+    <node x="1899.0" y="-35.5">java</node>
+    <node x="1709.5" y="-35.5">groovy</node>
+    <node x="1535.5" y="-35.5">javax</node>
+    <node x="2678.0" y="-315.5">dataAccessLayer</node>
+    <node x="1270.5" y="-35.5">groovyjarjarpicocli</node>
+    <node x="2451.0" y="-455.5">model</node>
+    <node x="812.5" y="-35.5">groovyjarjarcommonscli</node>
+    <node x="357.5" y="-35.5">groovyjarjarantlr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="groovyjarjarantlr" target="groovyjarjarantlr" relationship="TO_ONE">
+      <point x="-102.5" y="7.75" />
+      <point x="220.0" y="-12.25" />
+      <point x="220.0" y="160.0" />
+      <point x="408.75" y="160.0" />
+      <point x="-51.25" y="15.5" />
+    </edge>
+    <edge source="dataAccessLayer" target="model" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="2780.0" y="-360.0" />
+      <point x="2520.0" y="-360.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="businessLayer" target="model" relationship="DEPENDENCY">
+      <point x="-60.0" y="-15.5" />
+      <point x="2700.0" y="-80.0" />
+      <point x="2520.0" y="-80.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="groovyjarjarpicocli" target="groovyjarjarpicocli" relationship="DEPENDENCY">
+      <point x="-109.5" y="7.75" />
+      <point x="1120.0" y="-12.25" />
+      <point x="1120.0" y="140.0" />
+      <point x="1325.25" y="140.0" />
+      <point x="-54.75" y="15.5" />
+    </edge>
+    <edge source="groovyjarjarantlr" target="groovyjarjarantlr" relationship="DEPENDENCY">
+      <point x="-102.5" y="-7.75" />
+      <point x="200.0" y="-27.75" />
+      <point x="200.0" y="200.0" />
+      <point x="511.25" y="200.0" />
+      <point x="51.25" y="15.5" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli" relationship="DEPENDENCY">
+      <point x="-127.5" y="10.333333333333332" />
+      <point x="640.0" y="-9.666666666666668" />
+      <point x="640.0" y="160.0" />
+      <point x="855.0" y="160.0" />
+      <point x="-85.0" y="15.5" />
+    </edge>
+    <edge source="businessLayer" target="dataAccessLayer" relationship="TO_ONE">
+      <point x="0.0" y="-15.5" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli" relationship="TO_ONE">
+      <point x="-127.5" y="-0.0" />
+      <point x="620.0" y="-20.0" />
+      <point x="620.0" y="200.0" />
+      <point x="940.0" y="200.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="groovyjarjarpicocli" target="groovyjarjarpicocli" relationship="TO_ONE">
+      <point x="-109.5" y="-7.75" />
+      <point x="1100.0" y="-27.75" />
+      <point x="1100.0" y="180.0" />
+      <point x="1434.75" y="180.0" />
+      <point x="54.75" y="15.5" />
+    </edge>
+    <edge source="businessLayer" target="dataAccessLayer" relationship="CREATE">
+      <point x="60.0" y="-15.5" />
+      <point x="2820.0" y="-80.0" />
+      <point x="2840.0" y="-80.0" />
+      <point x="60.0" y="15.5" />
+    </edge>
+    <edge source="dataAccessLayer" target="dataAccessLayer" relationship="DEPENDENCY">
+      <point x="-102.0" y="-0.0" />
+      <point x="2540.0" y="-300.0" />
+      <point x="2540.0" y="-140.0" />
+      <point x="2712.0" y="-140.0" />
+      <point x="-68.0" y="15.5" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli" relationship="TO_MANY">
+      <point x="-127.5" y="-10.333333333333332" />
+      <point x="600.0" y="-30.333333333333332" />
+      <point x="600.0" y="260.0" />
+      <point x="1025.0" y="260.0" />
+      <point x="85.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7490583371612309" showDependencies="true" x="2066.0176611271236" y="-132.0489973630955" />
+  <SelectedNodes>
+    <node>MainClass</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
